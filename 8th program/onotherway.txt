@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+float price,amount,tot;
+printf("Enter unit price and amount\n");
+scanf("%f%f",&price,&amount);
+tot=price*amount;
+if(tot>=1000)
+{
+tot=tot*95/100;
+}
+
+printf("Your bill is %f",tot);
+return 0;
+}

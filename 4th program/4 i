@@ -1,0 +1,14 @@
+    #include <stdio.h>
+    int main()
+    {
+	int amount;
+	float price,finalbill;
+	printf("input amount ");
+	scanf("%d",&amount);
+	printf("input price ");
+	scanf("%f",&price);
+	finalbill=amount*price*95/100;
+	printf("you have to pay: %f\n",finalbill);
+ 
+	return 0;
+    }
